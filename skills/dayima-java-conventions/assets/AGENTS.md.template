@@ -1,0 +1,29 @@
+# Repository Guidelines
+
+## Project Overview
+
+Describe the project's purpose and list each module or major package with one responsibility.
+
+## Technology Baseline
+
+- Java: record the exact version from the build.
+- Build: record Maven or Gradle and the wrapper/version policy.
+- Frameworks: record the exact Spring, RPC, persistence, and test stack already in use.
+
+## Project Structure
+
+List production source, resources, migrations, generated code, and test directories. State where controllers, services, DAOs, entities, request objects, and configuration live.
+
+## Build, Test, and Run Commands
+
+- Full build: provide the exact command.
+- Focused test: provide the exact module and single-test command.
+- Local run: provide the exact command and name external prerequisites without including secrets.
+
+## Local Conventions
+
+Record only conventions unique to this repository: module boundaries, package names, approved libraries, generated-file rules, and compatibility exceptions. Do not duplicate the global Dayima Java conventions.
+
+## Security and Configuration
+
+Identify sensitive configuration locations and approved local override mechanisms. Never include credentials, tokens, private keys, production endpoints, or real user data.

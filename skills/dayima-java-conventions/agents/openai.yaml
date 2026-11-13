@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dayima Java Conventions"
+  short_description: "Apply shared Java architecture and API conventions"
+  default_prompt: "Use $dayima-java-conventions to implement this Java change with the shared conventions."
